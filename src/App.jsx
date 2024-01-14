@@ -20,6 +20,7 @@ function App() {
       link.click()
     })
   }
+  
   const handleStop = async () => {
     console.log('Parando grabación')
   }

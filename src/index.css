@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  @apply bg-gray-900 ;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  color: #007fff;
+  transition: all 0.4s ease;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #007fff;
+  border-radius: 4px;
+  width: 4px;
+  transition: all 0.4s ease;
+}
+
+::-webkit-scrollbar-track {
+  background: #222;
+  border-radius: 4px;
+  width: 4px;
+}
